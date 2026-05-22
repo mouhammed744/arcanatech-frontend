@@ -219,7 +219,7 @@ export const LoginPage = () => {
                 </label>
                 <div className="glass-input-wrap">
                   <Mail size={16} className="glass-input-icon" />
-                  <input {...register('email')} type="email" placeholder="admin@universite.bj" className="glass-input" />
+                  <input {...register('email')} type="email" placeholder="Votre adresse email" className="glass-input" />
                 </div>
                 {errors.email && <p className="text-xs mt-1.5" style={{ color: 'var(--danger)' }}>{errors.email.message}</p>}
               </div>

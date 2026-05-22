@@ -69,7 +69,7 @@ export const ForgotPasswordPage = () => {
                     <input
                       {...register('email')}
                       type="email"
-                      placeholder="admin@universite.bj"
+                      placeholder="Votre adresse email"
                       className="glass-input"
                     />
                   </div>

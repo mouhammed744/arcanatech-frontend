@@ -195,7 +195,7 @@ export const ConfigPage = () => {
             type="email"
             value={form.adminEmail ?? ''}
             onChange={(e) => updateField('adminEmail', e.target.value)}
-            placeholder="admin@universite.bj"
+            placeholder="Email administrateur"
             className="w-full px-4 py-2.5 rounded-xl text-sm focus:outline-none focus:outline-none"
             style={{
               border: '1px solid var(--border-input)',
